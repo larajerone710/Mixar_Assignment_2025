@@ -28,14 +28,10 @@ Before a 3D mesh can be processed by an AI model, its vertex data must be:
 MIXAR-MESH-PREPROCESS-UPDATED/
 │
 ├── scripts/
-│   ├── task1_2_3_mesh_pipeline.py           # Implements Tasks 1–3
-│   └── task4_bonus_adaptive_quantization.py # Implements Bonus Task (Option 2)
-│
-├── meshes/        # Place your input .obj meshes here
-├── outputs/       # All generated results (plots, .ply files, JSON)
-├── requirements.txt
-├── LICENSE
-└── README.md
+│   ├── task1_2_3_mesh_pipeline.py          
+│   └── task4_bonus_adaptive_quantization.py 
+├── README.md
+└── requirements.txt
 ```
 
 ---
